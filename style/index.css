@@ -1,0 +1,228 @@
+body{
+	margin: 0;
+    overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+.wrap{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+}
+span{
+	font-weight: bold;
+	color: rgba(180, 180, 180, 1);
+}
+p{
+	font-size: 0.8vw;
+    color: rgb(181, 181, 181);
+    margin: 0;
+}
+h1{
+	color: rgba(180, 180, 180, 0.7);
+    font-weight: bold;
+    font-size: 1.4vw;
+    margin: 0;
+	font-weight: 400;
+}
+h2{
+	font-size: 3vw;
+    color: #20d8c5;
+    margin: 0;
+	margin-bottom: 2.5vw;
+	line-height: 3vw;
+}
+h3{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 2vw;
+}
+h4{
+	font-size: 2.5vw;
+    color: white;
+    margin: 0;
+	margin-bottom: 2.5vw;
+	line-height: 3vw;
+}
+
+#info_about_us{
+	height: 39vw;
+    background-color: #1cbdbe;
+    position: relative;
+}
+#info_about_us div table p{
+	text-align: center;
+	color: white;
+	font-size: 1vw;
+}
+#info_about_us div table img{
+	width: 30%;
+}
+#info_about_us div table th{
+	height: 10vw;
+}
+#info_about_us div table td{
+	width: 25vw;
+}
+.content{
+	padding: 3vw;
+	margin-bottom:2vw;
+}
+#follow{
+	height: 55vw;
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content2{
+	position: relative;
+    top: 25vw;
+    margin-left: 11vw;
+}
+#follow h2{
+	margin: 0;
+}
+#follow h1{
+	margin-bottom: 3.5vw;
+	margin-top: 1vw;
+}
+#follow a{
+	color: #20d8c5;
+	cursor: pointer;
+}
+#info_about_card{
+	height: 39vw;
+    background-image: url(../img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#info_about_card p{
+	color: white;
+}
+.content3{
+	position: relative;
+    top: 10vw;
+    margin-left: 11vw;
+    padding-right: 63vw;
+}	
+#advantages{
+	height: 39vw;
+    position: relative;
+}
+#advantages div table p{
+	text-align: center;
+	font-size: 0.8vw;
+}
+#advantages div table img{
+	width: 30%;
+}
+#advantages div table th{
+	height: 8vw;
+}
+#advantages div table td{
+	width: 22vw;
+}
+.content4{
+	padding: 3vw;
+}
+#advantages h1{
+	text-align: center;
+}
+#advantages2{
+	height: 39vw;
+    background-image: url(../img/background4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#advantages2 h4{
+	text-align: left;
+	margin-left: 3vw;
+	margin-bottom: 1vw;
+	font-size: 2.3vw;
+}
+.wrap-padding{
+	padding-top: 7vw;
+}
+#advantages2 div table p{
+	text-align: center;
+	font-size: 0.8vw;
+	color: white;
+	opacity: 0.8;
+}
+#advantages2 div table img{
+	width: 30%;
+}
+#advantages2 div table th{
+	height: 8vw;
+}
+#advantages2 div table td{
+	width: 22vw;
+}	
+#where{
+	height: 39vw;
+    position: relative;
+}
+#where div table p{
+	text-align: center;
+	font-size: 1vw;
+}
+#where div table h1{
+	text-align: center;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+    color: grey;
+    font-weight: 600;
+}
+#where div table img{
+	width: 30%;
+}
+#where div table th{
+	height: 10vw;
+}
+#where div table td{
+	width: 25vw;
+}
+.content6{
+	padding: 3vw;
+}
+#where h1{
+	text-align: center;
+}
+.textp{
+	text-align: center;
+	padding-top: 7vw;
+}
+.round1{
+	padding: 0.5vw 0.7vw;
+    border-radius: 3vw;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1vw;
+    color: white;
+    opacity: 0.8;
+	font-size: 1vw;
+	position: absolute;
+    margin-left: -3vw;
+}
+.round2{
+	padding: 0.5vw 0.7vw;
+    border-radius: 3vw;
+    border: none;
+    background-color: rgba(198, 198, 198, 0.5);
+    margin-right: 1vw;
+    color: grey;
+    opacity: 0.8;
+	font-size: 1vw;
+	position: absolute;
+    margin-left: -3vw;
+}
+
+
+@media screen and (max-width: 900px){
+}

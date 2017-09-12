@@ -1,0 +1,42 @@
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	margin: 0;
+}
+#banner{
+    height: 55vw;
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#links{
+	position: absolute;
+    top: 1.5vw;
+    left: 11vw;
+}
+#links li{
+	display: inline;
+    list-style: none;
+    margin-right: 1.2vw;
+	font-size: 1.1vw;
+	color: grey;
+	cursor: pointer;
+}
+#apraksts {
+    position: relative;
+    top: 20vw;
+    left: 11vw;
+}
+
+@media screen and (min-width: 1200px){
+#links li{
+	font-size: 0.8vw;
+}
+}
+@media screen and (max-width: 900px){
+}
